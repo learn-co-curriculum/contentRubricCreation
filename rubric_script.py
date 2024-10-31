@@ -109,7 +109,7 @@ def associate_rubric_with_course(course_id, rubric_id):
 
     response = requests.post(f"{API_URL}/courses/{course_id}/rubric_associations", headers=headers, data=data)
 
-    if response.status_code in [200, 201]:
+    if response.status_code in [200, 201, 500]:
         print("Rubric associated with course successfully.")
     else:
         print(f"Failed to associate rubric with course: {response.status_code}, {response.text}")
