@@ -52,7 +52,7 @@ Ensure your CSV file follows the format below for successful parsing:
 | Criterion 2 | Criterion 2 description for each rating | ... | 
 
 ### Step 4: Verify in Canvas 
-Once the script completes, you should see the rubric on the Canvas course rubrics page under `https://https://flatironlearn.instructure.com/courses/[course_id]/rubrics`. 
+Once the script completes, you should see the rubric on the Canvas course rubrics page under `https://flatironlearn.instructure.com/courses/[course_id]/rubrics`. 
 ## Troubleshooting 
 ### Permission Denied 
 If you encounter a `Permission Denied` error, ensure that you have the necessary execution permissions: 
